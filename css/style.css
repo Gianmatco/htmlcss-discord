@@ -9,7 +9,7 @@
 }
 
 body{
-    
+    min-width: 1260px;
     font-size: 20px;
     color: #23272a;
 }
@@ -69,7 +69,7 @@ nav ul li{
 }
 #accedi .btn{
     display: inline;
-    
+    font-size: 14px;
     padding: 10px 14px;
     background-color: #fff;
     color: #23272a;
@@ -117,6 +117,15 @@ nav ul li{
     color: white;
     text-decoration: none;
 }
+.wave{
+    color: rgb(225,225,227);
+    font-size: 0;
+}
+.wave2{
+    color: rgb(225,225,227);
+    transform: rotate(180deg);
+    font-size: 0;
+}
 .box1{
     margin-top: 100px;
 }
@@ -134,7 +143,8 @@ nav ul li{
     line-height: 30px;
 }
 .box2{
-    margin-top: 100px;
+    
+    background-color: rgb(225,225,227);
 }
 .section2{
     font-size: 2vw;
@@ -159,8 +169,35 @@ nav ul li{
     font-weight: 200;
     line-height: 30px;
 }
+.p-strong-size{
+    font-size: 30px;
+}
 
-.text img{
+/*footer*/
+footer{
+    background-color: black;
+
+}
+.container-footer{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 2em;
     
+    color: white;
 
+}
+.footer-float-left{
+    width: 25%;
+    float: left;
+    padding-top: 50px;
+    
+    
+}
+.footer-foot-list{
+    padding-top: 50px;
+    width: calc(75% / 5);
+    float: left;  
+}
+.footer-foot-list ul li{
+    list-style-type: none;
 }
